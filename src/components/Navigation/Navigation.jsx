@@ -4,22 +4,13 @@ import './Navigation.css';
 function Navigation() {
   return (
     <nav className="navigation">
-      <a
-        className="navigation__link"
-        href="ProjectsMateReact/react_decompose/src#about"
-      >
+      <a className="navigation__link" href="#about">
         About
       </a>
-      <a
-        className="navigation__link"
-        href="ProjectsMateReact/react_decompose/src#services"
-      >
+      <a className="navigation__link" href="#services">
         Services
       </a>
-      <a
-        className="navigation__link"
-        href="ProjectsMateReact/react_decompose/src#contact"
-      >
+      <a className="navigation__link" href="#contact">
         Contact
       </a>
     </nav>
